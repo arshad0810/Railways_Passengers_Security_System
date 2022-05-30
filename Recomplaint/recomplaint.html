@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password],input[type=date], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+  <form class="container">  
+  <center>  <h1> Re Complaint Form </h1> </center>  
+  <hr>  
+  <label> PNR No. </label>   
+<input type="text" name="PNR No." placeholder= "Enter 10-digit PNR number" size="10" required />   
+<label> Complaint ID </label>   
+<input type="text" name="Complaint ID" placeholder="Enter 6-digit complaint ID" size="6" required />   
+<label> Mobile No.</label>    
+<input type="text" name="Mobile no." placeholder="+91----------" size="10"required />  
+<label> Complaint Date </label>   
+<input type="date" name="date"/> 
+</form>
+<a href="recomplaint_done.html">
+    <button class="registerbtn">Register</button>    </a>
+</body>
+</html>
